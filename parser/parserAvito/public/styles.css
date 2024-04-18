@@ -1,0 +1,26 @@
+.muted {
+    background-color: #f2f2f2; /* Цвет для помутнелых строк */
+}
+
+.unclickable {
+    pointer-events: none; /* Делает кнопку некликабельной */
+    opacity: 0.5; /* Делает кнопку полупрозрачной */
+}
+
+.clickable {
+    /* Стили для кликабельных кнопок */
+}
+
+.container {
+    display: flex;
+    margin: 10px;
+    justify-content: start;
+}
+
+.container .info{
+    justify-content: space-around;
+}
+
+.info button {
+    margin-top: 20px;
+}
